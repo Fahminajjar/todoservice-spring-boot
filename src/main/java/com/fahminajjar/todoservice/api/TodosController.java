@@ -1,10 +1,10 @@
-package com.fahminajjar.todoservice.controller;
+package com.fahminajjar.todoservice.api;
 
 import com.fahminajjar.todoservice.dto.CollectionResponseDto;
 import com.fahminajjar.todoservice.dto.TodoDto;
-import com.fahminajjar.todoservice.dto.TodoMapper;
-import com.fahminajjar.todoservice.exception.TodoNotFoundException;
+import com.fahminajjar.todoservice.mapper.TodoMapper;
 import com.fahminajjar.todoservice.service.TodoService;
+import com.fahminajjar.todoservice.exception.TodoNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

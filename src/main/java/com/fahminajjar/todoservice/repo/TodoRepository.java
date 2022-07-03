@@ -1,4 +1,4 @@
-package com.fahminajjar.todoservice.repository;
+package com.fahminajjar.todoservice.repo;
 
 import com.fahminajjar.todoservice.model.Todo;
 import org.springframework.data.jpa.repository.JpaRepository;

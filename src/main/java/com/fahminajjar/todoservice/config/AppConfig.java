@@ -1,7 +1,7 @@
 package com.fahminajjar.todoservice.config;
 
 import com.fahminajjar.todoservice.model.Todo;
-import com.fahminajjar.todoservice.repository.TodoRepository;
+import com.fahminajjar.todoservice.repo.TodoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.List;
 
 @Configuration
-public class TodoConfig {
+public class AppConfig {
 
     @Bean
     CommandLineRunner commandLineRunner(TodoRepository repository) {

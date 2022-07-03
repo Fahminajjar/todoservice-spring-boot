@@ -1,6 +1,7 @@
-package com.fahminajjar.todoservice.dto;
+package com.fahminajjar.todoservice.mapper;
 
 import com.fahminajjar.todoservice.model.Todo;
+import com.fahminajjar.todoservice.dto.TodoDto;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 

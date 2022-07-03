@@ -1,7 +1,7 @@
 package com.fahminajjar.todoservice.service;
 
 import com.fahminajjar.todoservice.model.Todo;
-import com.fahminajjar.todoservice.repository.TodoRepository;
+import com.fahminajjar.todoservice.repo.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
